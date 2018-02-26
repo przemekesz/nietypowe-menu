@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;  
+}
+nav{
+    height: 40px;
+    background-color: blue;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0.5em
+}
+ul{
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.divs{
+    display: inline-block;
+    height: 49px;
+    width: 50%;   
+    float: left;
+}
+.lewyskos{
+    background: linear-gradient(to right bottom, blue 50%, transparent 50%);
+}
+.prawyskos{
+    background: linear-gradient(to left bottom, blue 50%, transparent 50%);
+}
+section{
+    text-align: center;
+    padding-top: 3em;
+    font-size: 4em;
+}
